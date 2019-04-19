@@ -3,13 +3,17 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Stuff Template</title>
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>明日を切り拓く株式会社○○○○○</title>
+	<!-- TemplateEndEditable -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- TemplateBeginEditable name="meta1" -->
 	<meta name="description" content="ページ説明が入ります。" />
 	<meta name="keywords" content="キーワドが入ります。" />
+    <!-- TemplateEndEditable -->
+    
 	<meta name="author" content="mac-agency" />
-
-  <!-- Facebook and Twitter integration -->
+	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
 	<meta property="og:image" content=""/>
 	<meta property="og:url" content=""/>
@@ -19,54 +23,56 @@
 	<meta name="twitter:image" content="" />
 	<meta name="twitter:url" content="" />
 	<meta name="twitter:card" content="" />
-	
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
-	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="../css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="../css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
+	<link rel="stylesheet" href="../css/bootstrap.css">
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
+	<link rel="stylesheet" href="../css/magnific-popup.css">
 	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-
+	<link rel="stylesheet" href="../css/flexslider.css">
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
+	<link rel="stylesheet" href="../css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../css/owl.theme.default.min.css">
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-	<link href="css/index_customize.css" rel="stylesheet" type="text/css">
-
+	<link rel="stylesheet" href="../css/style.css">
+	<link href="../css/index_customize.css" rel="stylesheet" type="text/css">
+  <!-- TemplateBeginEditable name="css" -->
+    
+  <!-- TemplateEndEditable -->  
+    
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="../js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	<!-- TemplateParam name="option1" type="boolean" value="false" -->
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
 	</head>
 	<body>
+	
+	
 		
 	<div class="colorlib-loader"></div>
 
-	<div id="page">
+	
+    <div id="page">
     <!--↓　グローバルナビゲーション　↓-->
 		<nav class="colorlib-nav bg_white" role="navigation">
 			<div class="top-menu">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="index.html">company</a></div>
+							<div id="colorlib-logo"><a href="../index.html">company</a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
+								<li class="active"><a href="../index.html">Home</a></li>
 								<li class="has-dropdown">
 									<a href="#">事業内容</a>
 									<ul class="dropdown">
@@ -79,7 +85,7 @@
                 <li class="has-dropdown">
 									<a href="#">企業情報</a>
 									<ul class="dropdown">
-										<li><a href="single.html">〇〇事業</a></li>
+										<li><a href="../single.html">〇〇事業</a></li>
 										<li><a href="#">〇〇事業</a></li>
 										<li><a href="#">〇〇事業</a></li>
 										<li><a href="#">〇〇事業</a></li>
@@ -94,10 +100,11 @@
 			</div>
 		</nav>
     <!--↑　ここまでグローバルナビゲーション　↑-->
+      <!-- TemplateBeginEditable name="main_content" -->
 		<aside id="colorlib-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(images/top_slide1.jpg);">
+			   	<li style="background-image: url(../images/top_slide1.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container">
 			   			<div class="row">
@@ -116,7 +123,7 @@
 				   		</div>
 			   		</div>
 			   	</li>
-			   	<li style="background-image: url(images/top_slide2.jpg); background-position: 0% 0%;">
+			   	<li style="background-image: url(../images/top_slide2.jpg); background-position: 0% 0%;">
 			   		<div class="overlay"></div>
 			   		<div class="container">
 			   			<div class="row">
@@ -135,7 +142,7 @@
 				   		</div>
 			   		</div>
 			   	</li>
-			   	<li style="background-image: url(images/top_slide3.jpg);">
+			   	<li style="background-image: url(../images/top_slide3.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container">
 			   			<div class="row">
@@ -154,7 +161,7 @@
 				   		</div>
 			   		</div>
 			   	</li>
-			   	<li style="background-image: url(images/top_slide4.jpg);">
+			   	<li style="background-image: url(../images/top_slide4.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container">
 			   			<div class="row">
@@ -183,7 +190,7 @@
 					<div class="col-md-4">
 						<div class="blog-entry">
 							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-1.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+								<a href="../blog.html"><img src="../images/blog-1.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 							</div>
 							<div class="desc">
 								<p class="meta">
@@ -191,7 +198,7 @@
 									<span class="date">20 March 2018</span>
 									<span class="pos">By <a href="#">Rich</a></span>
 								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
 								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
 							</div>
 						</div>
@@ -199,7 +206,7 @@
 					<div class="col-md-4">
 						<div class="blog-entry">
 							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-2.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+								<a href="../blog.html"><img src="../images/blog-2.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 							</div>
 							<div class="desc">
 								<p class="meta">
@@ -207,7 +214,7 @@
 									<span class="date">20 March 2018</span>
 									<span class="pos">By <a href="#">Rich</a></span>
 								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
 								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
 							</div>
 						</div>
@@ -217,10 +224,10 @@
 							<div class="blog-slider">
 								<div class="owl-carousel">
 									<div class="item">
-										<a href="blog.html" class="image-popup-link"><img src="images/blog-3.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+										<a href="../blog.html" class="image-popup-link"><img src="../images/blog-3.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 									</div>
 									<div class="item">
-										<a href="blog.html" class="image-popup-link"><img src="images/blog-4.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+										<a href="../blog.html" class="image-popup-link"><img src="../images/blog-4.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 									</div>
 								</div>
 							</div>
@@ -230,7 +237,7 @@
 									<span class="date">20 March 2018</span>
 									<span class="pos">By <a href="#">Rich</a></span>
 								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
 								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
 							</div>
 						</div>
@@ -240,7 +247,7 @@
 					<div class="col-md-4">
 						<div class="blog-entry">
 							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-4.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+								<a href="../blog.html"><img src="../images/blog-4.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 							</div>
 							<div class="desc">
 								<p class="meta">
@@ -248,7 +255,7 @@
 									<span class="date">20 March 2018</span>
 									<span class="pos">By <a href="#">Rich</a></span>
 								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
 								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
 							</div>
 						</div>
@@ -256,7 +263,7 @@
 					<div class="col-md-4">
 						<div class="blog-entry">
 							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-5.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+								<a href="../blog.html"><img src="../images/blog-5.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 							</div>
 							<div class="desc">
 								<p class="meta">
@@ -264,7 +271,7 @@
 									<span class="date">20 March 2018</span>
 									<span class="pos">By <a href="#">Rich</a></span>
 								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
 								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
 							</div>
 						</div>
@@ -272,7 +279,7 @@
 					<div class="col-md-4">
 						<div class="blog-entry">
 							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-6.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+								<a href="../blog.html"><img src="../images/blog-6.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 							</div>
 							<div class="desc">
 								<p class="meta">
@@ -280,7 +287,7 @@
 									<span class="date">20 March 2018</span>
 									<span class="pos">By <a href="#">Rich</a></span>
 								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
 								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
 							</div>
 						</div>
@@ -290,7 +297,7 @@
 					<div class="col-md-8">
 						<div class="blog-entry">
 							<div class="blog-img">
-								<div class="video colorlib-video" style="background-image: url(images/blog-8.jpg);">
+								<div class="video colorlib-video" style="background-image: url(../images/blog-8.jpg);">
 									<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-play"></i></a>
 									<div class="overlay"></div>
 								</div>
@@ -301,7 +308,7 @@
 									<span class="date">20 March 2018</span>
 									<span class="pos">By <a href="#">Rich</a></span>
 								</p>
-								<h2><a href="blog.html">Watch our video how to make website</a></h2>
+								<h2><a href="../blog.html">Watch our video how to make website</a></h2>
 								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
 							</div>
 						</div>
@@ -309,7 +316,7 @@
 					<div class="col-md-4">
 						<div class="blog-entry">
 							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-7.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+								<a href="../blog.html"><img src="../images/blog-7.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 							</div>
 							<div class="desc">
 								<p class="meta">
@@ -317,57 +324,7 @@
 									<span class="date">20 March 2018</span>
 									<span class="pos">By <a href="#">Rich</a></span>
 								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
-								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row row-pb-md">
-					<div class="col-md-4">
-						<div class="blog-entry">
-							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-9.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-							</div>
-							<div class="desc">
-								<p class="meta">
-									<span class="cat"><a href="#">Events</a></span>
-									<span class="date">20 March 2018</span>
-									<span class="pos">By <a href="#">Rich</a></span>
-								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
-								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="blog-entry">
-							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-10.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-							</div>
-							<div class="desc">
-								<p class="meta">
-									<span class="cat"><a href="#">Events</a></span>
-									<span class="date">20 March 2018</span>
-									<span class="pos">By <a href="#">Rich</a></span>
-								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
-								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="blog-entry">
-							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-11.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
-							</div>
-							<div class="desc">
-								<p class="meta">
-									<span class="cat"><a href="#">Events</a></span>
-									<span class="date">20 March 2018</span>
-									<span class="pos">By <a href="#">Rich</a></span>
-								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
 								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
 							</div>
 						</div>
@@ -377,7 +334,7 @@
 					<div class="col-md-4">
 						<div class="blog-entry">
 							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-12.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+								<a href="../blog.html"><img src="../images/blog-9.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 							</div>
 							<div class="desc">
 								<p class="meta">
@@ -385,7 +342,57 @@
 									<span class="date">20 March 2018</span>
 									<span class="pos">By <a href="#">Rich</a></span>
 								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="../blog.html"><img src="../images/blog-10.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="#">Events</a></span>
+									<span class="date">20 March 2018</span>
+									<span class="pos">By <a href="#">Rich</a></span>
+								</p>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="../blog.html"><img src="../images/blog-11.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="#">Events</a></span>
+									<span class="date">20 March 2018</span>
+									<span class="pos">By <a href="#">Rich</a></span>
+								</p>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
+								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row row-pb-md">
+					<div class="col-md-4">
+						<div class="blog-entry">
+							<div class="blog-img">
+								<a href="../blog.html"><img src="../images/blog-12.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+							</div>
+							<div class="desc">
+								<p class="meta">
+									<span class="cat"><a href="#">Events</a></span>
+									<span class="date">20 March 2018</span>
+									<span class="pos">By <a href="#">Rich</a></span>
+								</p>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
 								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
 							</div>
 						</div>
@@ -393,7 +400,7 @@
 					<div class="col-md-8">
 						<div class="blog-entry">
 							<div class="blog-img">
-								<a href="blog.html"><img src="images/blog-13.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
+								<a href="../blog.html"><img src="../images/blog-13.jpg" class="img-responsive" alt="html5 bootstrap template"></a>
 							</div>
 							<div class="desc">
 								<p class="meta">
@@ -401,7 +408,7 @@
 									<span class="date">20 March 2018</span>
 									<span class="pos">By <a href="#">Rich</a></span>
 								</p>
-								<h2><a href="blog.html">Recipe for your site</a></h2>
+								<h2><a href="../blog.html">Recipe for your site</a></h2>
 								<p>A small river named Duden flows by their place and supplies it with the necessary </p>
 							</div>
 						</div>
@@ -430,32 +437,41 @@
 			</div>
 			<div class="row">
 				<div class="instagram-entry">
-					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-1.jpg);">
+					<a href="#" class="instagram text-center" style="background-image: url(../images/gallery-1.jpg);">
 					</a>
-					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-2.jpg);">
+					<a href="#" class="instagram text-center" style="background-image: url(../images/gallery-2.jpg);">
 					</a>
-					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-3.jpg);">
+					<a href="#" class="instagram text-center" style="background-image: url(../images/gallery-3.jpg);">
 					</a>
-					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-4.jpg);">
+					<a href="#" class="instagram text-center" style="background-image: url(../images/gallery-4.jpg);">
 					</a>
-					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-5.jpg);">
+					<a href="#" class="instagram text-center" style="background-image: url(../images/gallery-5.jpg);">
 					</a>
-					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-6.jpg);">
+					<a href="#" class="instagram text-center" style="background-image: url(../images/gallery-6.jpg);">
 					</a>
-					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-7.jpg);">
+					<a href="#" class="instagram text-center" style="background-image: url(../images/gallery-7.jpg);">
 					</a>
-					<a href="#" class="instagram text-center" style="background-image: url(images/gallery-8.jpg);">
+					<a href="#" class="instagram text-center" style="background-image: url(../images/gallery-8.jpg);">
 					</a>
 				</div>
 			</div>
 		</div>
+      <!-- TemplateEndEditable -->
+      
+      <!-- TemplateBeginIf cond="option1" -->
+      option1
+      
+      
+      <!-- TemplateEndIf -->
+      
+      
 		<footer id="colorlib-footer" role="contentinfo">
 			<div class="container">
 				<div class="row row-pb-md">
 					<div class="col-md-3">
 						<h2>Navigational</h2>
 						<p>
-							<ul class="colorlib-footer-links">
+						</p><ul class="colorlib-footer-links">
 								<li><a href="#"><i class="icon-check"></i> Home</a></li>
 								<li><a href="#"><i class="icon-check"></i> About Me</a></li>
 								<li><a href="#"><i class="icon-check"></i> Blog</a></li>
@@ -464,31 +480,31 @@
 								<li><a href="#"><i class="icon-check"></i> Fashion</a></li>
 								<li><a href="#"><i class="icon-check"></i> Health</a></li>
 							</ul>
-						</p>
+						<p></p>
 					</div>
 					<div class="col-md-3">
 						<h2>Recent Post</h2>
 						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-1.jpg);">
+							<a href="../blog.html" class="blog-img" style="background-image: url(../images/blog-1.jpg);">
 							</a>
 							<div class="desc">
-								<h3><a href="blog.html">Be a designer</a></h3>
+								<h3><a href="../blog.html">Be a designer</a></h3>
 								<p class="admin"><span>25 March 2018</span></p>
 							</div>
 						</div>
 						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-2.jpg);">
+							<a href="../blog.html" class="blog-img" style="background-image: url(../images/blog-2.jpg);">
 							</a>
 							<div class="desc">
-								<h3><a href="blog.html">How to build website</a></h3>
+								<h3><a href="../blog.html">How to build website</a></h3>
 								<p class="admin"><span>24 March 2018</span></p>
 							</div>
 						</div>
 						<div class="f-blog">
-							<a href="blog.html" class="blog-img" style="background-image: url(images/blog-3.jpg);">
+							<a href="../blog.html" class="blog-img" style="background-image: url(../images/blog-3.jpg);">
 							</a>
 							<div class="desc">
-								<h3><a href="blog.html">Create website</a></h3>
+								<h3><a href="../blog.html">Create website</a></h3>
 								<p class="admin"><span>23 March 2018</span></p>
 							</div>
 						</div>
@@ -496,7 +512,7 @@
 					<div class="col-md-3">
 						<h2>Archive</h2>
 						<p>
-							<ul class="colorlib-footer-links">
+						</p><ul class="colorlib-footer-links">
 								<li><a href="#"><i class="icon-check"></i> February 2018</a></li>
 								<li><a href="#"><i class="icon-check"></i> January 2018</a></li>
 								<li><a href="#"><i class="icon-check"></i> December 2017</a></li>
@@ -504,7 +520,7 @@
 								<li><a href="#"><i class="icon-check"></i> October 2017</a></li>
 								<li><a href="#"><i class="icon-check"></i> September 2017</a></li>
 							</ul>
-						</p>
+						<p></p>
 					</div>
 					<div class="col-md-3">
 						<h2>Tags</h2>
@@ -551,22 +567,22 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	</div>
 	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="../js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="../js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="../js/jquery.waypoints.min.js"></script>
 	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="../js/jquery.flexslider-min.js"></script>
 	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="../js/owl.carousel.min.js"></script>
 	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+	<script src="../js/jquery.magnific-popup.min.js"></script>
+	<script src="../js/magnific-popup-options.js"></script>
 	<!-- Main -->
-	<script src="js/main.js"></script>
+	<script src="../js/main.js"></script>
 
 	</body>
 </html>

@@ -4,7 +4,6 @@
   src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 /* =======================================================
 *
 * 	Template Style 
@@ -14,10 +13,9 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 2;
-  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   color: #666666;
-  background: #fff;
-}
+  background: #fff; }
 
 #page {
   position: relative;
@@ -76,10 +74,8 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   .colorlib-nav {
     margin: 0; } }
-
 .colorlib-nav .top-menu {
   padding: 25px 0; }
-
 .colorlib-nav #colorlib-logo {
   font-size: 24px;
   margin: 0;
@@ -90,11 +86,9 @@ h1, h2, h3, h4, h5, h6, figure {
   .colorlib-nav #colorlib-logo a {
     position: relative;
     color: #000; }
-
 @media screen and (max-width: 768px) {
   .colorlib-nav .menu-1 {
     display: none; } }
-
 .colorlib-nav ul {
   padding: 0;
   margin: 5px 0 0 0; }
@@ -865,7 +859,6 @@ blockquote {
   -ms-border-radius: 0px;
   border-radius: 0px; }
   .form-control:focus, .form-control:active {
-    -webkit-box-shadow: none;
     box-shadow: none;
     border: 1px solid rgba(0, 0, 0, 0.8); }
 
@@ -936,7 +929,6 @@ input[type="text"] {
       background: #F6490D;
       color: #fff;
       border: 1px solid #F6490D;
-      -webkit-box-shadow: 0 2px 10px -5px black;
       box-shadow: 0 2px 10px -5px black; }
     @media screen and (max-width: 768px) {
       .pagination li a {
@@ -944,7 +936,6 @@ input[type="text"] {
   .pagination li.active a {
     background: #F6490D;
     border-color: #F6490D;
-    -webkit-box-shadow: 0 2px 10px -5px black;
     box-shadow: 0 2px 10px -5px black; }
     .pagination li.active a:hover, .pagination li.active a:focus {
       background: #F6490D;
@@ -999,7 +990,6 @@ input[type="text"] {
         background: #F6490D;
         color: #fff;
         border: 1px solid #F6490D;
-        -webkit-box-shadow: 0 2px 10px -5px black;
         box-shadow: 0 2px 10px -5px black; }
   #colorlib-footer .f-blog {
     position: relative;
@@ -1154,8 +1144,6 @@ input[type="text"] {
     text-transform: uppercase;
     text-indent: -55px;
     background: #252525;
-    -webkit-transition: all .2s ease-out;
-    -o-transition: all .2s ease-out;
     transition: all .2s ease-out; }
     .colorlib-nav-toggle i::before, .colorlib-nav-toggle i::after {
       content: '';
@@ -1164,8 +1152,6 @@ input[type="text"] {
       background: #252525;
       position: absolute;
       left: 0;
-      -webkit-transition: all .2s ease-out;
-      -o-transition: all .2s ease-out;
       transition: all .2s ease-out; }
   .colorlib-nav-toggle.colorlib-nav-white > i {
     color: #000;
@@ -1241,7 +1227,6 @@ input[type="text"] {
   .btn.btn-lg {
     padding: 18px 36px !important; }
   .btn:hover, .btn:active, .btn:focus {
-    -webkit-box-shadow: 0 2px 10px -5px black;
     box-shadow: 0 2px 10px -5px black;
     outline: none !important; }
 
@@ -1328,7 +1313,6 @@ input[type="text"] {
   -o-transition: 0.3s;
   transition: 0.3s; }
   .btn-outline:hover, .btn-outline:focus, .btn-outline:active {
-    -webkit-box-shadow: none;
     box-shadow: none; }
 
 .btn.with-arrow {
@@ -1355,7 +1339,6 @@ input[type="text"] {
       opacity: 1; }
 
 .form-control {
-  -webkit-box-shadow: none;
   box-shadow: none;
   background: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1364,7 +1347,6 @@ input[type="text"] {
   font-weight: 300; }
   .form-control:active, .form-control:focus {
     outline: none;
-    -webkit-box-shadow: none;
     box-shadow: none;
     border-color: #F6490D; }
 
