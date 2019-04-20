@@ -422,6 +422,10 @@ vertical-align:bottom;
   background-color: hsla(0,0%,95%,1.00);
 }
 
+.footer_font1 {
+  font-size: 15px;
+}
+
 @media (max-width:320px){
 }
 
