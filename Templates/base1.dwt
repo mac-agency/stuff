@@ -1,7 +1,9 @@
 <!DOCTYPE HTML>
 <html lang="ja">
-	<head>
+	<head><!-- TemplateBeginEditable name="charset" -->
 	<meta charset="utf-8">
+    <!--euc-jp-->
+  <!-- TemplateEndEditable -->  
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<!-- TemplateBeginEditable name="doctitle" -->
 	<title>明日を切り拓く株式会社○○○○○</title>
@@ -40,7 +42,8 @@
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="../css/style.css">
 	<link href="../css/index_customize.css" rel="stylesheet" type="text/css">
-  <!-- TemplateBeginEditable name="css" -->
+	<link href="../css/lightbox.min.css" rel="stylesheet" type="text/css">
+	<!-- TemplateBeginEditable name="css" -->
     
   <!-- TemplateEndEditable -->  
     
@@ -57,18 +60,19 @@
 	<body>
 	
 	
+	
 		
 	<div class="colorlib-loader"></div>
 
 	
     <div id="page">
     <!--↓　グローバルナビゲーション　↓-->
-		<nav class="colorlib-nav bg_white" role="navigation">
+		<nav class="colorlib-nav bg_white">
 			<div class="top-menu">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-2">
-							<div id="colorlib-logo"><a href="../index.html">company</a></div>
+							<div id="colorlib-logo"><a href="../index_base.html">company</a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
@@ -459,13 +463,38 @@
       <!-- TemplateEndEditable -->
       
       <!-- TemplateBeginIf cond="option1" -->
-      option1
-      
+      <section id="catgory" class="section_padding">
+      <div class="container">
+    <h2 class="midashi">おすすめカテゴリー</h2>
+    <div class="row">
+    <div class="col-sm-3">
+      <div class="card"> <img class="img-responsive retina" src="../images/top1.jpg" alt="事業内容">
+        <!--<h4>Investment Strategy</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--> <a href="#" class="btn btn-danger btn-block top_margin5">事業内容</a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card"> <img class="img-responsive retina" src="../images/top2.jpg" alt="IR情報">
+        <!--<h4>Investment Strategy</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--> <a href="#" class="btn btn-danger btn-block top_margin5">IR情報</a> </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card"> <img class="img-responsive retina" src="../images/top3.jpg" alt="各部門のご紹介">
+        <!--<h4>Investment Strategy</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--> <a href="#" class="btn btn-danger btn-block top_margin5">各部門のご紹介</a> </div>
+    </div>
+      <div class="col-sm-3">
+      <div class="card"> <img class="img-responsive retina" src="../images/top4.jpg" alt="社員の声">
+        <!--<h4>Investment Strategy</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>--> <a href="#" class="btn btn-danger btn-block top_margin5">社員の声</a> </div>
+    </div>
+    </div>
+  </div>
+    </section>  
       
       <!-- TemplateEndIf -->
       
       
-		<footer id="colorlib-footer" role="contentinfo">
+		<footer id="colorlib-footer">
 			<div class="container">
 				<div class="row row-pb-md">
 					<div class="col-md-3">
@@ -583,7 +612,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="../js/magnific-popup-options.js"></script>
 	<!-- Main -->
 	<script src="../js/main.js"></script>
-
+  <script src="../js/lightbox.min.js"></script>
+  <script src="../js/retina.js"></script>
+    <script>
+lightbox.option({
+　　　/*オプションの記述の例*/
+　　　　'wrapAround': true,
+　　　　'alwaysShowNavOnTouchDevices': true
+})
+</script>
 	</body>
 </html>
 

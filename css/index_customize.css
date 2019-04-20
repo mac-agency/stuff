@@ -390,6 +390,38 @@ height: 100%;
 .bg_white {
   background-color: #FFFFFF;
 }
+
+.kosou_midashi {
+  color: #919191;
+}
+
+.row-center.va-middle > [class*='col-'] {
+vertical-align:middle;
+}
+.row-center.va-bottom > [class*='col-'] {
+vertical-align:bottom;
+}
+
+.sayuu_margin5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.sayuu_padding5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.waku1 {
+  border: 1px solid hsla(0,0%,80%,1.00);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.inyou_bg1 {
+  background-color: hsla(0,0%,95%,1.00);
+}
+
 @media (max-width:320px){
 }
 
