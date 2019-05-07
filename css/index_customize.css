@@ -426,6 +426,10 @@ vertical-align:bottom;
   font-size: 15px;
 }
 
+.logo_width {
+  width: 130px;
+}
+
 @media (max-width:320px){
 }
 
